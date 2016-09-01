@@ -24,6 +24,7 @@ Released under the MIT license: http://jsbin.mit-license.org
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
   margin-top:-25px;
+  background-color: white;
 }
 
 html, body {
@@ -58,7 +59,7 @@ if (hours < 10) {
   var hexColor = '#' + hours + minutes + seconds;
   var hexColor2 = '#' + minutes + hours + seconds;
 console.log(hours + ': '+ minutes +':' + seconds);
-var clockFace = hours + '♂ '+ minutes +'♂' + seconds;
+var clockFace = hours + ' ♀ '+ minutes +' ♂ ' + seconds;
 
 document.getElementById('clock').innerHTML = clockFace;
 
